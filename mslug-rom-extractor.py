@@ -184,7 +184,6 @@ def patch(file, patchf): # Apply patch from json file
             if original != p["old"]:
                 sys.exit(f"Unexpected byte {original} in {p['offset']}. Haulting script")
             f.seek(p["offset"])
-            print(p["offset"])
             f.write(bytes([p["new"]]))
     print(file, "patched")
 
