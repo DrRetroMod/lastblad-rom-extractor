@@ -25,6 +25,8 @@ It will create two files, the game file 'lastblad.zip' and the bios file 'neogeo
 
 This was script was forked and heavily based on terminatorhex's Metal Slug extraction sctipt tool found here: https://github.com/terminatorhex/mslug-rom-extractor
 
+LLMs have been used in creating this, but it does exactly what it is meant to do.
+
 This project is provided for educational and preservation purposes only.
 
 It does not include any copyrighted game data, ROMs, or BIOS files.
