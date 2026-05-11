@@ -1,6 +1,6 @@
-# mslug-rom-extractor
+# lastblad-rom-extractor
 
-mslug-rom-extractor is a Python script to extract MAME compatible rom archives from the Dotemu releases of Metal Slug 1, 2 & X.
+lastblad-rom-extractor is a Python script to extract MAME compatible rom archives from the Dotemu releases of The Last Blade
 
 ## How does it work?
 
@@ -8,22 +8,9 @@ This script manipulates the files at `GAME_DIR/resources/game` to convert them f
 
 ## Supported Games
 
-Dotemu's windows releases (Available in Steam & GOG) of:
+Dotemu's windows releases (Available in Amazon Gaming and possibly Steam & GOG?? I am unsure of these last two) of:
 
-* Metal Slug 1
-* Metal Slug 2
-* Metal Slug X
-
-## Unsupported Games
-
-Metal Slug 3 ROM extraction is NOT SUPPORTED.
-
-Dotemu’s release modifies the game program code to remove any Neo-SMA depency. MAME Expects SMA encrypted program code and a dump of the contents of the SMA chip in the original game cartridge (green.neo-sma). This means that:
-
-* The 68k program included (mslug3_game_m68k) is not a direct match to the original PRG ROMs (256-pg1.p1/pg2.p2) and would require heavy reconstruction.
-* The Neo-SMA protection chip data (green.neo-sma) is completely absent from the files.
-
-As a result, a valid MAME-compatible ROM set cannot be reconstructed from these files alone.
+* The Last Blade
 
 ## BIOS
 
