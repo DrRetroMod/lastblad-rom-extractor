@@ -14,29 +14,16 @@ Dotemu's windows releases (Available in Amazon Gaming and possibly Steam & GOG??
 
 ## BIOS
 
-This script can optionally extract the NEO-GEO BIOS files included in these releases with the `--extract_bios` option. Though MAME (And most emulators) expect a full NEO-GEO BIOS romset (neogeo.zip). These releases only include the MVS US BIOS files.
+This script will automatically extract the included NEO-GEO BIOS files in these releases. Though MAME (And most emulators) expect a full NEO-GEO BIOS romset (neogeo.zip). These releases only include the MVS US BIOS files.
 
 ## Usage
 
-```
-usage: mslug-rom-extractor [-h] [-o OUTPUT_DIR] [--output_bios] game_dir
-
-Script to extract MAME compatible rom files from Dotemu's releases of Metal
-Slug 1,2 & X (3 NOT SUPPORTED)
-
-positional arguments:
-  game_dir              Directory that matches STEAMFOLDER/steamapps/common/GA
-                        ME_TO_EXTRACT/resources/game
-
-options:
-  -h, --help            show this help message and exit
-  -o, --output_dir OUTPUT_DIR
-                        Directory to output final rom files
-  --output_bios         Extract also included bios files (Not enough for most
-                        emulators)
-```
+Simple place the two files in the `GAME_DIR/resources/game` folder, and run the 'extract_lastblad.bat' file.
+It will create two files, the game file 'lastblad.zip' and the bios file 'neogeo.zip'. I have confiremd that the game file passes RomVaults checks and is a complete version of the game, but Bios fles may still be wanted.
 
 ## Legal Notice
+
+This was script was forked and heavily based on terminatorhex's Metal Slug extraction sctipt tool found here: https://github.com/terminatorhex/mslug-rom-extractor
 
 This project is provided for educational and preservation purposes only.
 
