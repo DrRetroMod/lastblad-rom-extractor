@@ -1,6 +1,7 @@
 # lastblad-rom-extractor
 
-lastblad-rom-extractor is a Python script to extract MAME compatible rom archives from the Dotemu releases of The Last Blade
+lastblad-rom-extractor is a Python script to extract MAME compatible rom archives from the Dotemu releases of The Last Blade.
+
 (For transparency LLM's have been used in the making of these scripts, but they do exactly as they claim, and they get the job done, I am not a veteran in coding, I am just a guy wanting to extract ROMs)
 
 ## How does it work?
